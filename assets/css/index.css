@@ -1,0 +1,143 @@
+*{
+    transition: 0.3s;
+}
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+        color: white !important;
+        background-color: transparent !important;
+    }
+
+
+@media (max-width:768px) {
+    
+    a.navbar-brand {
+        width: 40%;
+    }
+    img.img-p {
+        width: 100%;
+    }
+    img.logo-sobre {
+        width: 100%;
+    }
+    span.badge.text-bg-secondary {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: #FF069E !important;
+    }
+    .card .body-card{
+        background-color: #FF069E ;
+    }
+    p.card-text {
+        font-size: 14px;
+    }
+
+    form {
+        display: block;
+        justify-content: center;
+    }
+
+    textarea#msg {
+        width: 100%;
+    }
+}
+
+body{
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    position: relative;
+    background: transparent;
+    
+}
+.logo{
+    width: 80%;
+}
+.full {
+    /* background-image: url(../img/beta.gif); */
+    /* background-position: bottom; */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* height: 80vh; */
+    display: flex;
+    align-items: center;
+}
+
+h1,h2,h5,span {
+    color: #FFFFFF;
+}
+
+h1,h2{
+    /* font-family: "Inter"; */
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.txt-span {
+    color: #FFEE00;
+    font-size: 16px;
+}
+h1 span {
+    color: #FF069E;
+    font-weight: 700;
+}
+p,span{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    color: #FFFFFF;
+}
+
+
+textarea#msg {
+    border-radius: 100px;
+    width: 100%;
+    padding: 10px;
+}
+button {
+    padding: 10px 50px;
+    border-radius: 100px;
+    background-image: linear-gradient(to right top, #CE0BFF, #FF00A2, #FFEE00);
+    color: wheat;
+}
+/* form {
+    align-items: center;
+    display: flex
+;
+    justify-content: center;
+} */
+
+
+.skills{
+ color: #3f3f3f;
+}
+
+@media (min-width:768px) {
+    .logo {
+        width: 30%;
+    }
+    li button {
+        width: 180px;
+    }
+    span.badge.text-bg-secondary {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: #FF069E !important;
+    }
+    .card .body-card{
+        background-color: #FF069E ;
+    }
+    p.card-text {
+        font-size: 14px;
+    }
+
+    img.logo-sobre {
+        width: -webkit-fill-available;
+    }
+}
